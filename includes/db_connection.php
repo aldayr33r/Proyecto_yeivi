@@ -2,7 +2,7 @@
 $host = "192.168.100.64";  
 $user = "alda";
 $password = "alda12345";
-$database = "tennis_db";
+$database = "tenis_db";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
