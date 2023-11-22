@@ -1,8 +1,8 @@
 <?php
-$host = "192.168.100.5";  
+$host = "192.168.100.64";  
 $user = "alda";
 $password = "alda12345";
-$database = "tenis_db";
+$database = "tennis_db";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
