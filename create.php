@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-
+<?php include("includes/navBar.php"); ?>
 <div class="container">
     <h2>Agregar Tenis</h2>
     <form method="post" action="create.php">

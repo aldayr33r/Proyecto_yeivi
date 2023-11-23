@@ -14,9 +14,9 @@ $result = mysqli_query($connection, $query);
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-
+<?php include("includes/navBar.php");?>
 <div class="container">
-    <h2>CRUD de Tenis</h2>
+    <h2>Inventario</h2>
     <a href="create.php" class="btn btn-primary">Agregar Tenis</a>
     <br><br>
 
