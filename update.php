@@ -50,6 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
+<?php include("includes/navBar.php"); ?>
 
 <div class="container">
     <h2>Editar Tenis</h2>
@@ -77,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <button type="submit" class="btn btn-primary">Guardar Cambios</button>
     </form>
-    <a href="index.php" class="btn btn-secondary">Volver</a>
+    <a href="inventario.php" class="btn btn-secondary">Volver</a>
 </div>
 
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
