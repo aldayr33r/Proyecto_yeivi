@@ -8,12 +8,12 @@
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home
+          <a class="nav-link active" href="home.php">Home
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Inventario</a>
+          <a class="nav-link" href="inventario.php">Inventario</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="create.php">Agregar Tenis</a>

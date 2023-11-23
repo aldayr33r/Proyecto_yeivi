@@ -8,13 +8,13 @@ if (isset($_GET["id"])) {
     $result = mysqli_query($connection, $query);
 
     if ($result) {
-        header("Location: index.php");
+        header("Location: inventario.php");
         exit();
     } else {
         echo "Error al eliminar tenis: " . mysqli_error($connection);
     }
 } else {
-    header("Location: index.php");
+    header("Location: inventario.php");
     exit();
 }
 ?>
